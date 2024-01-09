@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        form {
+            margin-left: 23%;
+        }
+
+        form input {
+            margin: 13px 22px;
+        }
+
+        textarea {
+            margin: 0 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 align="center">FORM 1</h1>
+    <hr>
+    <form action="" style="background-color: rgb(124 85 255 / 77%); color: white; width: 59%;">
+        <label for="First Name">FIRST NAME :<input type="text" id="First Name" maxlength="30">(max 30 characters
+            A-Z)</label>
+        <br>
+        <label for="Last Name">LAST NAME :<input type="text" id="Last Name" maxlength="30">(max 30 characters
+            A-Z)</label>
+        <br>
+        <label for="Date">DATE OF BIRTH :<input type="number" id="Date" placeholder="Date" style="width: 7%;">
+            <input type="number" id="Date" placeholder="Month" style="width: 9%;">
+            <input type="number" id="Date" placeholder="Year" style="width: 10%;">
+        </label>
+        <br>
+        <label for="Email">EMAIL ID : <input type="email" id="Email"></label>
+        <br>
+        <label for="Mob">MOBILE NUMBER : <input type="number" id="Mob"></label>
+        <br>
+        <label>GENDER :
+            Male<input type="radio" name="gender" value="male">
+        </label>
+
+        <label>
+            Female<input type="radio" name="gender" value="female">
+        </label>
+        <br>
+        <br>
+
+
+        <span id="address">ADDRESS:</span><textarea id="add" name="comments" rows="4" cols="25"></textarea>
+        <br>
+        <br>
+        <label for="city">CITY:</label>
+        <input type="text" id="city" name="city">(max 30 characters
+        A-Z)
+        <br>
+        <label for="pin">PIN CODE:</label>
+        <input type="text" id="pin" name="pin">(max 30 characters
+        A-Z)
+        <br>
+        <label for="state">STATE:</label>
+        <input type="text" id="state" name="state">(max 30 characters
+        A-Z)
+        <br>
+        <label for="country">COUNTRY:</label>
+        <input type="text" id="country" name="country">
+        <br>
+        <label for="hobbies">HOBBIES :
+            Drawing <input type="checkbox">
+            Singing <input type="checkbox">
+            Dancing <input type="checkbox">
+            Sketching <input type="checkbox">
+        </label>
+        <br>
+        <table border="1">
+            <label for="qualification">QUALIFICATION :
+                <br>
+
+                <tr>
+                    <td>S.NO.</td>
+                    <td>Examination</td>
+                    <td>Board
+                    <td>Percentage</td>
+                    <td>Year of PASSINGS</td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Class X</td>
+                    <td style="background-color: aliceblue;"></td>
+                    <td style="background-color: aliceblue;"></td>
+                    <td style="background-color: aliceblue;"></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Class XII</td>
+                    <td style="background-color: aliceblue;"></td>
+                    <td style="background-color: aliceblue;"></td>
+                    <td style="background-color: aliceblue;"></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Graduation</td>
+                    <td style="background-color: aliceblue;"></td>
+                    <td style="background-color: aliceblue;"></td>
+                    <td style="background-color: aliceblue;"></td>
+
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Master</td>
+                    <td style="background-color: aliceblue;"></td>
+                    <td style="background-color: aliceblue;"></td>
+                    <td style="background-color: rgb(234, 242, 249);"></td>
+                </tr>
+
+        </table>
+
+        </label>
+        <br>
+
+        <label>Courses Applied For:
+            B.CA<input type="radio" name="gender" value="male">
+        </label>
+
+        <label>
+            B.Com<input type="radio" name="gender" value="female">
+        </label>
+        <label>
+            B.SC<input type="radio" name="gender" value="female">
+        </label>
+        <label>
+            BA<input type="radio" name="gender" value="female">
+        </label>
+        <br>
+        <center>
+            <button>Submit</button>
+            <button>Reset</button>
+        </center>
+    </form>
+    <hr>
+
+    <h1 align="center">Form 2</h1>
+    <br>
+
+    <h1 align="center">Account Opening Form</h1>
+    <h2 style="background-color: aqua;" align="margin-left">Personal Details</h2>
+    <form action="" style="background-color: rgb(255, 233, 205); width: 65%;">
+        <label for="name">
+            Name : <input type="text" id="name">
+        </label>
+        <br>
+        <label for="nam">
+            Name of
+            <em>(Father/Guardian)</em> : <input type="text" id="nam">
+        </label>
+        <br>
+        <label for="date">
+            Date Of Birth * <em>(dd-mm-yy)</em>
+            <input type="date">
+        </label>
+        <br>
+        <label>Gender *:
+            Male<input type="radio" name="gender" value="male">
+        </label>
+
+        <label>
+            Female<input type="radio" name="gender" value="female">
+        </label>
+        <br>
+        <label for="nation">Nationality
+            <input type="text" id="nation">
+        </label>
+        <br>
+        <label>Account Type* :
+            Saving<input type="radio" name="gender" value="saving">
+        </label>
+
+        <label>
+            Fixed<input type="radio" name="gender" value="Fixed">
+        </label>
+        <br>
+        <br>
+        <label for="pre">Preferences :</label>
+        <input type="checkbox">Internet Savings
+        <input type="checkbox">Mobile Banking
+        <input type="checkbox">SMS alert
+        <br>
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="4" cols="30"></textarea>
+        <br>
+        <!-- <br> -->
+        <label for="country">Country* :
+            <select name="country" id="country">
+                <option value="select" selected disabled>Please Select</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="India">India</option>
+                <option value="Austrlia">Austrlia</option>
+                <option value="Turkey">Turkey</option>
+                <option value="China">China</option>
+                <option value="Afghanistan">Afghanistan</option>
+            </select>
+        </label>
+        <!-- <br> -->
+        <br>
+        <label for="code">Zip Code :
+            <input type="text" id="code">
+        </label>
+        <br>
+        <br>
+        <label for="pho">Phone :
+            <input type="text" id="pho">
+        </label>
+        <br>
+        <!-- <br> -->
+        <label for="email">Email :
+            <input type="email" id="email">
+        </label>
+        <br>
+        <!-- <br> -->
+        <label for="pas">Password (6-8 characters)* :
+            <input type="email" id="pas">
+        </label>
+        <!-- <br> -->
+        <br>
+        <label for="veri"> Verify password* :
+            <input type="email" id="veri">
+        </label>
+        <br>
+
+        <button>Send</button>
+        <button>Clear</button>
+
+    </form>
+    <!-- <img src="/1.png" alt="" width="40%"> -->
+    <hr>
+    <h1 align="center">Form 3</h1>
+    <center>
+        <form action="" width="10%" align="left" style="margin-left: 20px; background-color: rgba(47, 255, 206, 0.871);">
+            <fieldset>
+                <legend>The First Section</legend>
+                <fieldset>
+                    <legend>The First Subsection</legend>
+                    <label for="">Feild 1
+                        <input type="text">
+                    </label>
+                </fieldset>
+                <label for="">Feild 1</label>
+                <input type="text" width="70%">
+            </fieldset>
+        </form>
+    </center>
+    <hr>
+    <h1 align="center">Form 4</h1>
+    <form action="" style="width:40%; background-color: rgba(106, 148, 150, 0.686); color: white;">
+        <fieldset>
+            <legend><strong>Login Details</strong></legend>
+            <label for="nam">Name:
+                <input type="text" id="nam">
+            </label>
+            <br>
+            <!-- <br> -->
+            <label for="em">Email:
+                <input type="text" id="em">
+            </label>
+            <br>
+            <label for="pass">Password:
+                <input type="password" id="pass">
+            </label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Your Feedbacks</legend>
+            <p>Please check all emotions that apply to you:</p>
+            <label for="">Angry <input type="checkbox"></label><br>
+            <label for="">Sad <input type="checkbox"></label><br>
+            <label for="">Happy <input type="checkbox"></label><br>
+            <label for="">Ambivalent <input type="checkbox"></label><br>
+            <p>How satifistied were you with ourservice?</p>
+            <label for="">Very satifistied <input type="checkbox"></label><br>
+
+        </fieldset>
+    </form>
+    <!-- <img src="/3.png" alt=""> -->
+</body>
+
+</html>
